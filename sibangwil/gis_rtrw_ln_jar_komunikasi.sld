@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><sld:StyledLayerDescriptor xmlns="http://www.opengis.net/sld" xmlns:sld="http://www.opengis.net/sld" xmlns:gml="http://www.opengis.net/gml" xmlns:ogc="http://www.opengis.net/ogc" version="1.0.0">
+  <sld:NamedLayer>
+    <sld:Name>gis_rtrw_ln_jar_komunikasi</sld:Name>
+    <sld:UserStyle>
+      <sld:Name>gis_rtrw_ln_jar_komunikasi</sld:Name>
+      <sld:FeatureTypeStyle>
+        <sld:Name>name</sld:Name>
+        <sld:Rule>
+          <sld:Name>Rencana Telepon</sld:Name>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>telepon</ogc:PropertyName>
+              <ogc:Literal>Rencana Telepon</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <sld:LineSymbolizer>
+            <sld:Stroke/>
+          </sld:LineSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+          <sld:Name>Telepon</sld:Name>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>telepon</ogc:PropertyName>
+              <ogc:Literal>Telepon</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <sld:LineSymbolizer>
+            <sld:Stroke/>
+          </sld:LineSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+          <ogc:Filter>
+            <ogc:Or>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>telepon</ogc:PropertyName>
+                <ogc:Literal/>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsNull>
+                <ogc:PropertyName>telepon</ogc:PropertyName>
+              </ogc:PropertyIsNull>
+            </ogc:Or>
+          </ogc:Filter>
+          <sld:LineSymbolizer>
+            <sld:Stroke/>
+          </sld:LineSymbolizer>
+        </sld:Rule>
+      </sld:FeatureTypeStyle>
+    </sld:UserStyle>
+  </sld:NamedLayer>
+</sld:StyledLayerDescriptor>
+

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><sld:StyledLayerDescriptor xmlns="http://www.opengis.net/sld" xmlns:sld="http://www.opengis.net/sld" xmlns:gml="http://www.opengis.net/gml" xmlns:ogc="http://www.opengis.net/ogc" version="1.0.0">
+  <sld:NamedLayer>
+    <sld:Name>gis_rdtr_ar_ren_pola_tp_timur_budidaya</sld:Name>
+    <sld:UserStyle>
+      <sld:Name>gis_rdtr_ar_ren_pola_tp_timur_budidaya</sld:Name>
+      <sld:FeatureTypeStyle>
+        <sld:Name>name</sld:Name>
+        <sld:Rule>
+          <sld:Name>Industri dan Pergudangan</sld:Name>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>zona</ogc:PropertyName>
+              <ogc:Literal>Industri dan Pergudangan</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <sld:PolygonSymbolizer>
+            <sld:Fill/>
+            <sld:Stroke/>
+          </sld:PolygonSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+          <sld:Name>Perdagangan dan Jasa</sld:Name>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>zona</ogc:PropertyName>
+              <ogc:Literal>Perdagangan dan Jasa</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <sld:PolygonSymbolizer>
+            <sld:Fill/>
+            <sld:Stroke/>
+          </sld:PolygonSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+          <sld:Name>Perkantoran</sld:Name>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>zona</ogc:PropertyName>
+              <ogc:Literal>Perkantoran</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <sld:PolygonSymbolizer>
+            <sld:Fill/>
+            <sld:Stroke/>
+          </sld:PolygonSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+          <sld:Name>Perumahan</sld:Name>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>zona</ogc:PropertyName>
+              <ogc:Literal>Perumahan</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <sld:PolygonSymbolizer>
+            <sld:Fill/>
+            <sld:Stroke/>
+          </sld:PolygonSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+          <sld:Name>Peruntukan Khusus</sld:Name>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>zona</ogc:PropertyName>
+              <ogc:Literal>Peruntukan Khusus</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <sld:PolygonSymbolizer>
+            <sld:Fill/>
+            <sld:Stroke/>
+          </sld:PolygonSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+          <sld:Name>Sarana Pelayanan Umum</sld:Name>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>zona</ogc:PropertyName>
+              <ogc:Literal>Sarana Pelayanan Umum</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <sld:PolygonSymbolizer>
+            <sld:Fill/>
+            <sld:Stroke/>
+          </sld:PolygonSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+          <sld:Name>Transportasi</sld:Name>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>zona</ogc:PropertyName>
+              <ogc:Literal>Transportasi</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <sld:PolygonSymbolizer>
+            <sld:Fill/>
+            <sld:Stroke/>
+          </sld:PolygonSymbolizer>
+        </sld:Rule>
+        <sld:Rule>
+          <ogc:Filter>
+            <ogc:Or>
+              <ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>zona</ogc:PropertyName>
+                <ogc:Literal/>
+              </ogc:PropertyIsEqualTo>
+              <ogc:PropertyIsNull>
+                <ogc:PropertyName>zona</ogc:PropertyName>
+              </ogc:PropertyIsNull>
+            </ogc:Or>
+          </ogc:Filter>
+          <sld:PolygonSymbolizer>
+            <sld:Fill/>
+            <sld:Stroke/>
+          </sld:PolygonSymbolizer>
+        </sld:Rule>
+      </sld:FeatureTypeStyle>
+    </sld:UserStyle>
+  </sld:NamedLayer>
+</sld:StyledLayerDescriptor>
+
